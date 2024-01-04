@@ -12,7 +12,7 @@ According to [Devis Lucato](https://www.linkedin.com/in/devislucato/) (*Principa
 2. Ground answers exclusively on the data ingested.
 3. Provide links and references to the original sources.
 
-Grounding answers on the ingested data helps avoid [hallucinations](https://zapier.com/blog/ai-hallucinations/): Davis stated that "*we fundamentally don't trust AI in autopilot mode. We need a way to audit it.*".
+Grounding answers on the ingested data helps avoid [hallucinations](https://zapier.com/blog/ai-hallucinations/): Devis stated that "*we fundamentally don't trust AI in autopilot mode. We need a way to audit it.*".
 
 Kernel memory provides the functionality to *ingest and index data* in a way that makes it possible to *answer questions* later. The interface [IMemoryDb](https://github.com/microsoft/kernel-memory/blob/main/service/Abstractions/MemoryStorage/IMemoryDb.cs) and the data structure [MemoryRecord](https://github.com/microsoft/kernel-memory/blob/main/service/Abstractions/MemoryStorage/MemoryRecord.cs) are the means by which Kernel Memory connects to vector databases and storage systems capable of performing vector similarity searches.
 
